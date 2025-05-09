@@ -1,4 +1,5 @@
-## Check the instance state which are stopped in your accont and get the output of those instaces ID's
+## Check the instance state which are stopped in your accont and get the output of those instaces ID's.
+## We ( Devops Engineer ) always we get the client request to check the instances which are in stopped state and provide them the instance id's.
 
 import boto3
 def lambda_handler(event, context): # Create an EC2 client ec2 = boto3.client('ec2')
