@@ -1,6 +1,8 @@
 ## Here I have convered how to get the stale resources( unattached Volumes and Snapshots ) which are on your aws accounts. 
 ## This will help you to get idea of stale resoures and identifying those resources which are increasing cost unnessarily for your account.
 ## This will show you the volumes and snapshots which are not attached to any of the EC2 instances
+## You need to create a lambda function and test it manually.
+
 
 import boto3
 
